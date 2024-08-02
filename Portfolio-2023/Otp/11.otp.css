@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+button{
+    height: 90px;
+    width: 200px;
+    border: solid 0px;
+    border-radius: 30px;
+    font-size: xx-large;
+    color: black;
+    background-color: rgb(234, 19, 19);
+    margin: 50px 0px 0px 130px ;
+}
+button:hover{
+    color: white;
+    background-color: black;
+}
+.background{
+    border: solid 0px;
+    /* height: 705px; */
+    width: 100%;
+    background-image: url(./Image/background1.webp);
+    background-size: cover;
+}
+.jo{
+    text-align: center;
+}
+.otphead{
+    display: flex;
+}
+.change{
+    padding: 10px 0px 0px 160px ;
+    font-size: 30px;
+}
+.change1{
+    padding: 10px 0px 0px 170px ;
+    font-size: 30px;
+}
+.otp{
+    text-align: center;
+    color: greenyellow;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.otp4dig{
+    border: solid 0px;
+    height: 300px;
+    width: 30%;
+
+}
+.otp6dig{
+    border: solid 0px;
+    height: 300px;
+    width: 30%;
+}
+.otp8{
+    border: solid 0px;
+    height: 300px;
+    width: 30%;
+}

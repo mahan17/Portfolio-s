@@ -1,0 +1,45 @@
+.form{
+    border: 0px solid;
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+    background: linear-gradient(blue, white);
+}
+input{
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: white;
+    height: 30px;
+    width: 50%;
+}
+
+input[type = 'submit']{
+    background: blue;
+    border: 0px solid;
+    color: blue;
+    transition: all 2s;
+    width: 20%;
+    background-color: white;
+    font-weight: bolder;
+}
+
+input[type = 'submit']:hover{
+    background: linear-gradient(crimson, white);
+    color: blue;
+   
+}
+
+h2{
+    margin: auto;
+}
+span{
+    display: flex;
+    justify-content: center;
+}
+h5{
+    display: flex;
+    justify-content: center;
+}
